@@ -33,3 +33,8 @@ void toh(int n, std::string from, std::string to, std::string temp){
         toh(n-1,temp,to,from);
     }
 }
+int main(){
+    int num;
+    std::cin>>num;
+    toh(num,"Primeira","do Meio","Ponta");
+}
